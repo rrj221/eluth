@@ -12,6 +12,8 @@ export default class Price extends Component {
       	<div>
         	Price: {this.props.price}
         </div>
+        <a href={this.props.link}>Link</a>
+        <br/>
       </div>
     )
   }
